@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Tugas02-Terjemahkan</string>
+    <string name="TxtEnglish">Hello world</string>
+    <string name="TxtIndonesia">Apa Kabar Dunia</string>
+    <string name="TxtAceh">Pee Haba Donya</string>
+    <string name="BtnInggris">Translate To English</string>
+    <string name="BtnIndonesia">Terjemahkan Ke Bahasa</string>
+    <string name="BtnAceh">Pee Arti Kee Aceh</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
