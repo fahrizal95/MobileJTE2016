@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Fragmen1</string>
+    <string name="TULISAN_HELLO_WORLD">HELLO WORLD ..</string>
+    <string name="TULISAN_APAKABAR_DUNIA">APAKABAR DUNIA</string>
+    <string name="TULISAN_PEUHABA_DONYA">PEU HABA DONYA</string>
+    <string name="TULISAN_TERJEMAHKAN">TERJEMAHKAN</string>
+    <string name="TERJEMAHKAN_KE_INDONESIA">TERJEMAHKAN KE INDONESIA</string>
+    <string name="TERJEMAHKAN_KE_INGGRIS">TRANSLATE TO INGGRIS</string>
+    <string name="TERJEMAHKAN_KE_ACEH">TRANSLATE KE ACEH</string>
+    <string name="action_settings">Settings</string>
+</resources>
