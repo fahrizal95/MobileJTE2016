@@ -1,0 +1,122 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.acer.kalkulator.MainActivityFragment"
+    tools:showIn="@layout/activity_main">
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:id="@+id/angka1"
+        android:layout_marginTop="43dp"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/angka2"
+        android:layout_toStartOf="@+id/angka2"
+        android:onClick="tomboldiklik" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4"
+        android:id="@+id/angka4"
+        android:layout_below="@+id/angka1"
+        android:layout_alignLeft="@+id/angka1"
+        android:layout_alignStart="@+id/angka1"
+        android:layout_alignRight="@+id/angka1"
+        android:layout_alignEnd="@+id/angka1"
+        android:onClick="tomboldiklik" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7"
+        android:id="@+id/angka7"
+        android:layout_below="@+id/angka4"
+        android:layout_alignLeft="@+id/angka4"
+        android:layout_alignStart="@+id/angka4"
+        android:onClick="tomboldiklik" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:id="@+id/angka2"
+        android:layout_above="@+id/angka4"
+        android:layout_centerHorizontal="true"
+        android:onClick="tomboldiklik" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5"
+        android:id="@+id/angka5"
+        android:layout_alignTop="@+id/angka4"
+        android:layout_alignLeft="@+id/angka2"
+        android:layout_alignStart="@+id/angka2"
+        android:onClick="tomboldiklik" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8"
+        android:id="@+id/angka8"
+        android:layout_below="@+id/angka5"
+        android:layout_alignLeft="@+id/angka5"
+        android:layout_alignStart="@+id/angka5"
+        android:onClick="tomboldiklik" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:id="@+id/angka3"
+        android:layout_alignTop="@+id/angka2"
+        android:layout_toRightOf="@+id/angka2"
+        android:layout_toEndOf="@+id/angka2"
+        android:onClick="tomboldiklik" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6"
+        android:id="@+id/angka6"
+        android:layout_above="@+id/angka8"
+        android:layout_toRightOf="@+id/angka5"
+        android:layout_toEndOf="@+id/angka5"
+        android:onClick="tomboldiklik" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9"
+        android:id="@+id/angka9"
+        android:layout_below="@+id/angka5"
+        android:layout_toRightOf="@+id/angka5"
+        android:layout_toEndOf="@+id/angka5"
+        android:onClick="tomboldiklik" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/angka0"
+        android:layout_below="@+id/angka7"
+        android:layout_alignRight="@+id/angka9"
+        android:layout_alignEnd="@+id/angka9"
+        android:layout_alignLeft="@+id/angka7"
+        android:layout_alignStart="@+id/angka7"
+        android:onClick="tomboldiklik" />
+
+
+
+
+</RelativeLayout>
