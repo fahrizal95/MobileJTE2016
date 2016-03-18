@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="id.ac.unsyiah.elektro.mobile.tugas02_terjemahkan.MainActivityFragment"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/TxtEnglish"
+        android:id="@+id/Txt" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/BtnInggris"
+        android:onClick="onClickTerjemahkanInggris"
+        android:layout_below="@+id/BtnIndonesia"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/BtnIndonesia"
+        android:id="@+id/BtnIndonesia"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="onClickTerjemahkanIndonesia" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/BtnAceh"
+        android:id="@+id/BtnAceh"
+        android:layout_below="@+id/BtnIndonesia"
+        android:layout_alignLeft="@+id/BtnIndonesia"
+        android:layout_alignStart="@+id/BtnIndonesia"
+        android:layout_marginTop="51dp"
+        android:onClick="onClickTerjemahkanAceh" />
+
+</RelativeLayout>
