@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">Tutorial01</string>
-    <string name="action_settings">Settings</string>
-    <string name="TULISAN_APA_KABAR_DUNIA">Apa Kabar Dunia</string>
-    <string name="TULISAN_TERJEMAHKAN">Terjemahkan</string>
-    <string name="TULISAN_HELLO_WORLD">Hello World</string>
-    <string name="TERJEMAHKAN_KE_INGGRIS">Terjemahkan Ke Bahasa</string>
-    <string name="TERJEMAHKAN_KE_BAHASA">Translate To English</string>
-</resources>

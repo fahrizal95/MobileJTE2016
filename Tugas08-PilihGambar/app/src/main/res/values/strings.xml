@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Tugas08-Pilih Gambar</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="gambar">
+        <item>Pilih Gambar</item>
+        <item>Mobil</item>
+        <item>Sepeda Motor</item>
+        <item>Becak Motor</item>
+        <item>Becak Dayung</item>
+        <item>Sepeda</item>
+    </string-array>
+</resources>
