@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtKode"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Kode Sku"
+        android:enabled="false"
+        android:hint="Kode SKU" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNama"
+        android:layout_below="@+id/txtKode"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Nama Barang"
+        android:enabled="false"
+        android:hint="Nama Barang" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtJumlah"
+        android:layout_below="@+id/txtNama"
+        android:inputType="number"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Jumlah"
+        android:enabled="false"
+        android:hint="Jumlah" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtHarga"
+        android:layout_below="@+id/txtJumlah"
+        android:inputType="numberDecimal"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Harga"
+        android:enabled="false"
+        android:hint="Harga" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtGambar"
+        android:layout_below="@+id/txtHarga"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Gambar"
+        android:enabled="false"
+        android:hint="Gambar"
+        android:visibility="gone" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Ubah"
+        android:id="@+id/btnUbah"
+        android:layout_below="@+id/spinner"
+        android:layout_centerHorizontal="true"
+        android:onClick="clickBtnUbah" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Simpan"
+        android:id="@+id/btnSimpan"
+        android:layout_below="@+id/spinner"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"
+        android:onClick="clickBtnSimpan" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Hapus"
+        android:id="@+id/btnHapus"
+        android:layout_below="@+id/btnUbah"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="clickBtnHapus" />
+
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:layout_below="@+id/txtHarga"
+        android:layout_centerHorizontal="true"
+        android:entries="@array/gambar"
+        android:visibility="visible" />
+
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CRUD Untuk Inventaris Barang</string>
+    <string-array name="daftarBarang">
+        <item>Barang</item>
+    </string-array>
+    <string-array name="gambar">
+        <item>Pilih Gambar</item>
+        <item>Becak</item>
+        <item>Sepeda</item>
+        <item>Motor</item>
+    </string-array>
+</resources>

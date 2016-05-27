@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtKode"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="Kode SKU" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNama"
+        android:layout_below="@+id/txtKode"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="Nama Barang" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtJumlah"
+        android:layout_below="@+id/txtNama"
+        android:layout_alignParentLeft="true"
+        android:inputType="number"
+        android:layout_alignParentStart="true"
+        android:hint="Jumlah Barang" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtHarga"
+        android:layout_below="@+id/txtJumlah"
+        android:layout_alignParentLeft="true"
+        android:inputType="numberDecimal"
+        android:layout_alignParentStart="true"
+        android:hint="Harga Satuan" />
+
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner2"
+        android:layout_below="@+id/txtHarga"
+        android:layout_centerHorizontal="true"
+        android:entries="@array/gambar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tambah"
+        android:id="@+id/button"
+        android:onClick="onClickTambah"
+        android:layout_below="@+id/spinner2"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
